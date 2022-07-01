@@ -1,0 +1,39 @@
+
+
+1 - Criando um repositório local
+
+git init
+
+2 - Verificar o que está armazenado no container
+
+git status
+
+3 - Adicionar arquivos ao container
+
+git add a.txt  // adicionar apenas o arquivo
+git add b.txt  
+git add .  // adicionar todos os arquivos do diretório
+
+4 - Idenficar o contêiner e armazenar no repositório
+
+git commit -m "comentário"
+
+exemplo:
+
+git commit -m "criado os arquivos a.txt b.txt"
+
+5 - Verificar os logs dos commits
+
+git log
+
+6 - Roteiro após adicionar ou modificar arquivos
+
+git status
+git add .
+git status
+git commit -m "Adicionado o c.txt e alterado a.txt"
+git log
+
+7 - Exibir os logs de maneira mais simples
+
+git log --oneline

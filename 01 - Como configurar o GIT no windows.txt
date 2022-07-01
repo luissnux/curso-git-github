@@ -1,0 +1,25 @@
+
+1 - Utilizar git version para mostrar a versão do git
+
+$ git version
+
+git version 2.36.1.windows.1
+
+
+2 - Primeiras configurações:
+
+git config --global user.name "Luis D. Pereira"
+git config --global user.email "luissnux@gmail.com"
+
+3 - Checando as configurações acima:
+
+git config user.name
+git config user.email
+
+4 - Verificar o editor padrão
+
+git config core.editor
+
+configurar o editor padrão:
+
+git config --global core.editor "caminho_editor_padrão"
